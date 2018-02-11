@@ -77,6 +77,7 @@ if(empty($_SESSION[login]))
 </nav>
 <div class="container">
     <?php
+    //ini adalah comment
     if(file_exists($mod.'.php'))
         include $mod.'.php';
     else
